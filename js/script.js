@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
     timer('.timer', '2024-07-12');
     cards();
     calc();
-    forms(modalTimerId, 'form', postData);
+    forms('form', modalTimerId, postData);
     slider({
         container: '.offer__slider',
         nextArrow: '.offer__slider-next',
